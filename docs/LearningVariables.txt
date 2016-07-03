@@ -1,0 +1,65 @@
+package com.learning;
+
+public class LearningVariables {
+	
+	public static void main(String[] args){
+		
+//		byte myByte = 1; // 137
+//		short myShort = 1; // 32000
+//		int i = 2; // 2-3 4billion 
+//		long l = 3; // even more. 
+//		float ff = 0.5f; // floating point math. 
+//		double ourD = 1.1; // double is more precise.
+//		
+//		char c = 'a'; // can only store a single char. require single quotes.
+//		String msg = "Hello"; // strings require double quotes
+//		
+//		boolean isTrue = false; //you know what a boolean is, Brian!
+		
+		
+			  int num1 = 5;
+	  int num2 = 2;
+	  
+	  System.out.println(num1 / num2); // => 2
+	  
+	  System.out.println((double)num1 / num2); // => 2.5 (this is called "casting")
+	  
+	  String msg = "Hello";
+	  String msg2 = "World";
+	  
+	  System.out.println(msg + " " + msg2); // -> "Hello World"
+	  
+	  int a = 3; 
+	  
+	  a += 5; 
+	  
+	  a++; 
+	  
+	  System.out.println(a); // => 9
+		
+		package com.learning;
+
+// was added by quick-fix in Eclipse.
+import java.util.Scanner;
+
+public class LearningVariables {
+	
+	public static void main(String[] args){
+		
+	  // getting input from the user: 
+	  // we must first import scanner. (Eclipse has this as a quick fix.) 
+	  Scanner input = new Scanner(System.in); // Creates an object from the scanner class.  
+		
+	  System.out.println("Enter your name.");
+	  String name = input.next();
+	  
+  
+	  System.out.println("Your name is: " + name);
+	}
+
+}
+		
+		
+	}
+
+}
