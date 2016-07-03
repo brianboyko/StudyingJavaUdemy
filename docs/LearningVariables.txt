@@ -23,7 +23,22 @@ public class LearningVariables {
 	  System.out.println(num1 / num2); // => 2
 	  
 	  System.out.println((double)num1 / num2); // => 2.5 (this is called "casting")
-	  
+	  System.out.println("Enter your first name.");
+    String firstName = input.next();
+    System.out.println("Enter your last name.");
+    String lastName = input.next();
+    System.out.println("Enter your age.");
+    int age = input.nextInt();
+    System.out.println("Enter your birthdate.");
+    String birthdate = input.next();
+    System.out.println("Enter your location.");
+    String location = input.next();
+    
+    
+    System.out.println("You are " + firstName + " " + lastName + ".");
+    System.out.println("You are " + age + " years old");
+    System.out.println("Your birth date is: " + birthdate);
+    System.out.println("And you are currently in: " + location);
 	  String msg = "Hello";
 	  String msg2 = "World";
 	  
