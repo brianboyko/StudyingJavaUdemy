@@ -9,7 +9,13 @@ public class SimpleClass {
   public int doublea = 0;
   public int doublei = 0; 
   public static int r = 10; // access via SimpleClass.r OR [instanceVariableName].r
+  // you cannot modify a static variable in a non-static method.
   public final int constantInt = 100; // cannot be changed. 
+  
+  private int privateInt = 0; // only available to this class. 
+  int nonPublicInt = 0; // available only inside the com.learning package. 
+  public int publicInt = 0; // available from all packages
+  // you can also have private and public methods. 
   
   public SimpleClass() {
     // defines the constructor;
